@@ -19,3 +19,5 @@
 ```
 composer create-project sergechurkin/ratecb  path "1.1.x-dev"
 ```
+
+«апустить приложение можно [по ссылке](http://sergechurkin.vacau.com/).

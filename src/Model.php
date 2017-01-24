@@ -74,7 +74,7 @@ class Model {
                     ];
                 }
             }
-            $cform->bldTable('', 'Таблица курсов', 10, $fieldsBrw, $r, null, $i, 1000, 1, 0, 1, $i);
+            $cform->bldTable('', 'Таблица курсов', 10, $fieldsBrw, $r, [], $i, 1000, 1, 0, 1, $i);
         }
     }    
 }

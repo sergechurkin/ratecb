@@ -48,11 +48,11 @@ class Model {
         } else {
             $cform->bldForm($title, 'Ввод даты и времени', 10, $fieldsForm, $buttons, true);
             $fieldsBrw = [];
-            $fieldsBrw[] = ['Название валюты', 'Vname',];
-            $fieldsBrw[] = ['Номинал', 'Vnom',];
-            $fieldsBrw[] = ['Курс', 'Vcurs',];
-            $fieldsBrw[] = ['ISO Цифровой код', 'Vcode',];
-            $fieldsBrw[] = ['ISO Символьный код', 'VchCode',];
+            $fieldsBrw[] = 'Название валюты';
+            $fieldsBrw[] = 'Номинал';
+            $fieldsBrw[] = 'Курс';
+            $fieldsBrw[] = 'ISO Цифровой код';
+            $fieldsBrw[] = 'ISO Символьный код';
             try {
                 $retval = $soap->GetCursOnDate(array('On_date' => str_replace(' ', 'T', $datetime)));
             } catch (Exception $e) {
